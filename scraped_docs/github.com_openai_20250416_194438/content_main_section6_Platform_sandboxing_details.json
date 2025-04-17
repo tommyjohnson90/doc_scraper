@@ -1,0 +1,6 @@
+{
+    "url": "https://github.com/openai/codex",
+    "section_title": "Platform sandboxing details",
+    "level": 3,
+    "content": "The hardening mechanism Codex uses depends on your OS: macOS 12+ – commands are wrapped with Apple Seatbelt ( sandbox-exec ). Everything is placed in a read‑only jail except for a small set of\nwritable roots ( $PWD , $TMPDIR , ~/.codex , etc.). Outbound network is fully blocked by default – even if a child process\ntries to curl somewhere it will fail. Linux – we recommend using Docker for sandboxing, where Codex launches itself inside a minimal\ncontainer image and mounts your repo read/write at the same path. A\ncustom iptables / ipset firewall script denies all egress except the\nOpenAI API. This gives you deterministic, reproducible runs without needing\nroot on the host. You can read more in run_in_container.sh Both approaches are transparent to everyday usage – you still run codex from your repo root and approve/reject steps as usual."
+}

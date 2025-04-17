@@ -1,0 +1,6 @@
+{
+    "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+    "section_title": "Initialize the SDK",
+    "level": 2,
+    "content": "Once you have created a Firebase project, you can initialize the SDK with\nGoogle Application Default Credentials\n.\nBecause default credentials lookup is fully automated in Google environments,\nwith no need to supply environment variables or other configuration, this way of\ninitializing the SDK is strongly recommended for applications running in Google\nenvironments such as\nFirebase App Hosting\n, Cloud Run, App Engine, and\nCloud Functions for Firebase\n. To optionally specify initialization options for services such as Realtime Database , Cloud Storage , or Cloud Functions , use the FIREBASE_CONFIG environment variable. If the content of the FIREBASE_CONFIG variable begins\nwith a { it will be parsed as a JSON object. Otherwise the SDK assumes that\nthe string is the path of a JSON file containing the options."
+}

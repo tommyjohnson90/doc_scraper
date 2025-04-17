@@ -1,0 +1,6 @@
+{
+    "url": "https://github.com/openai/codex",
+    "section_title": "Non‑interactive / CI mode",
+    "level": 2,
+    "content": "Run Codex head‑less in pipelines. Example GitHub Action step: -\nname\n:\nUpdate changelog via Codex\nrun\n:\n|\nnpm install -g @openai/codex\nexport OPENAI_API_KEY=\"${{ secrets.OPENAI_KEY }}\"\ncodex -a auto-edit --quiet \"update CHANGELOG for next release\" Set CODEX_QUIET_MODE=1 to silence interactive UI noise."
+}

@@ -1,0 +1,6 @@
+{
+    "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+    "section_title": "gcloud",
+    "level": 3,
+    "content": "#\nCheck\nthe\nexisting\naccess\nscopes\ngcloud\ncompute\ninstances\ndescribe\n[\nINSTANCE_NAME\n]\n--format json\n#\nThe\nabove\ncommand\nreturns\nthe\nservice\naccount\ninformation\n.\nFor\nexample\n:\n\"serviceAccounts\"\n:\n[\n{\n\"email\": \"your.gserviceaccount.com\",\n\"scopes\": [\n\"https://www.googleapis.com/auth/cloud-platform\",\n\"https://www.googleapis.com/auth/userinfo.email\"\n]\n}\n]\n,\n#\nStop\nthe\nVM\n,\nthen\nrun\nthe\nfollowing\ncommand\n,\nusing\nthe\nservice\naccount\n#\nthat\ngcloud\nreturned\nwhen\nyou\nchecked\nthe\nscopes\n.\ngcloud\ncompute\ninstances\nset\n-\nservice\n-\naccount\n[\nINSTANCE_NAME\n]\n--service-account \"your.gserviceaccount.com\" --scopes \"https://www.googleapis.com/auth/firebase.database,https://www.googleapis.com/auth/userinfo.email\""
+}

@@ -1,0 +1,6 @@
+{
+    "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+    "section_title": "Next steps",
+    "level": 2,
+    "content": "Learn about Firebase: Explore\nsample Firebase apps\n. Explore the open source code in GitHub for\nNode.js\n,\nJava\n,\nand\nPython\n. Read\nAdmin SDK\n-related blog posts\nby one of\nthe creators of the\nAdmin SDK\n. For example:\nAccessing Firestore and Firebase through a proxy server\n. Add Firebase features to your app: Write a serverless backend with\nCloud Functions\n. Store info with\nRealtime Database\nor blob data with\nCloud Storage\n. Receive notifications with\nCloud Messaging\n. Send feedback"
+}

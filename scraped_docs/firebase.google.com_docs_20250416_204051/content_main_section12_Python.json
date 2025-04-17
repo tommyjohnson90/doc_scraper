@@ -1,0 +1,6 @@
+{
+    "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+    "section_title": "Python",
+    "level": 3,
+    "content": "default_app\n=\nfirebase_admin\n.\ninitialize_app\n()"
+}

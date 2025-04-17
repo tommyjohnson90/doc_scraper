@@ -1,0 +1,97 @@
+2025-04-16 19:44:38,297 - INFO - pdfminer.six found, will be used for PDF extraction.
+2025-04-16 19:44:38,298 - INFO - Pandas found, will be used for CSV/Excel extraction.
+2025-04-16 19:44:38,298 - INFO - openpyxl found, enabling Pandas .xlsx support.
+2025-04-16 19:44:38,298 - INFO - python-docx found, will be used for DOCX extraction.
+2025-04-16 19:44:38,298 - INFO - Playwright fallback enabled and library found. Ensure browsers are installed (`playwright install`).
+2025-04-16 19:44:38,299 - INFO - Attempting to fetch robots.txt from: https://github.com/robots.txt
+2025-04-16 19:44:38,364 - INFO - Successfully fetched and parsed robots.txt for github.com
+2025-04-16 19:44:38,365 - INFO - --- Starting scrape process for: https://github.com/openai/codex ---
+2025-04-16 19:44:38,366 - INFO - Attempting initial fetch (requests): https://github.com/openai/codex
+2025-04-16 19:44:38,367 - INFO - Fetching (requests): https://github.com/openai/codex
+2025-04-16 19:44:38,785 - INFO - Successfully fetched (requests): https://github.com/openai/codex (Status: 200)
+2025-04-16 19:44:40,786 - INFO - Initial fetch successful (requests). Content length: 364677
+2025-04-16 19:44:40,849 - INFO - Attempting to extract content by sections...
+2025-04-16 19:44:40,853 - INFO - Found main content area using selector: 'article' for section extraction.
+2025-04-16 19:44:40,858 - INFO - Processing Section: 'Introduction / Content Before First Heading' (Level: 0, Length: 597 chars)
+2025-04-16 19:44:40,860 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section0_Introduction_Content_Before_First_Heading.json
+2025-04-16 19:44:40,861 - INFO - Saved section 'Introduction / Content Before First Heading' content to content_main_section0_Introduction_Content_Before_First_Heading.json
+2025-04-16 19:44:40,861 - INFO - Processing Section: 'Experimental Technology Disclaimer' (Level: 2, Length: 366 chars)
+2025-04-16 19:44:40,862 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section1_Experimental_Technology_Disclaimer.json
+2025-04-16 19:44:40,862 - INFO - Saved section 'Experimental Technology Disclaimer' content to content_main_section1_Experimental_Technology_Disclaimer.json
+2025-04-16 19:44:40,863 - INFO - Processing Section: 'Quickstart' (Level: 2, Length: 718 chars)
+2025-04-16 19:44:40,864 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section2_Quickstart.json
+2025-04-16 19:44:40,864 - INFO - Saved section 'Quickstart' content to content_main_section2_Quickstart.json
+2025-04-16 19:44:40,864 - INFO - Processing Section: 'Why Codex?' (Level: 2, Length: 571 chars)
+2025-04-16 19:44:40,865 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section3_Why_Codex.json
+2025-04-16 19:44:40,866 - INFO - Saved section 'Why Codex?' content to content_main_section3_Why_Codex.json
+2025-04-16 19:44:40,866 - INFO - Processing Section: 'Funding Opportunity' (Level: 2, Length: 248 chars)
+2025-04-16 19:44:40,867 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section4_Funding_Opportunity.json
+2025-04-16 19:44:40,867 - INFO - Saved section 'Funding Opportunity' content to content_main_section4_Funding_Opportunity.json
+2025-04-16 19:44:40,867 - INFO - Processing Section: 'Security Model & Permissions' (Level: 2, Length: 896 chars)
+2025-04-16 19:44:40,869 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section5_Security_Model_&_Permissions.json
+2025-04-16 19:44:40,870 - INFO - Saved section 'Security Model & Permissions' content to content_main_section5_Security_Model_&_Permissions.json
+2025-04-16 19:44:40,870 - INFO - Processing Section: 'Platform sandboxing details' (Level: 3, Length: 847 chars)
+2025-04-16 19:44:40,872 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section6_Platform_sandboxing_details.json
+2025-04-16 19:44:40,872 - INFO - Saved section 'Platform sandboxing details' content to content_main_section6_Platform_sandboxing_details.json
+2025-04-16 19:44:40,872 - INFO - Processing Section: 'System Requirements' (Level: 2, Length: 290 chars)
+2025-04-16 19:44:40,873 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section7_System_Requirements.json
+2025-04-16 19:44:40,874 - INFO - Saved section 'System Requirements' content to content_main_section7_System_Requirements.json
+2025-04-16 19:44:40,874 - INFO - Processing Section: 'CLI Reference' (Level: 2, Length: 346 chars)
+2025-04-16 19:44:40,875 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section8_CLI_Reference.json
+2025-04-16 19:44:40,875 - INFO - Saved section 'CLI Reference' content to content_main_section8_CLI_Reference.json
+2025-04-16 19:44:40,875 - INFO - Processing Section: 'Memory & Project Docs' (Level: 2, Length: 249 chars)
+2025-04-16 19:44:40,876 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section9_Memory_&_Project_Docs.json
+2025-04-16 19:44:40,876 - INFO - Saved section 'Memory & Project Docs' content to content_main_section9_Memory_&_Project_Docs.json
+2025-04-16 19:44:40,876 - INFO - Processing Section: 'Non‑interactive / CI mode' (Level: 2, Length: 303 chars)
+2025-04-16 19:44:40,877 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section10_Non‑interactive_CI_mode.json
+2025-04-16 19:44:40,877 - INFO - Saved section 'Non‑interactive / CI mode' content to content_main_section10_Non‑interactive_CI_mode.json
+2025-04-16 19:44:40,877 - INFO - Processing Section: 'Recipes' (Level: 2, Length: 991 chars)
+2025-04-16 19:44:40,878 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section11_Recipes.json
+2025-04-16 19:44:40,879 - INFO - Saved section 'Recipes' content to content_main_section11_Recipes.json
+2025-04-16 19:44:40,879 - INFO - Processing Section: 'Installation' (Level: 2, Length: 453 chars)
+2025-04-16 19:44:40,879 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section12_Installation.json
+2025-04-16 19:44:40,879 - INFO - Saved section 'Installation' content to content_main_section12_Installation.json
+2025-04-16 19:44:40,880 - INFO - Processing Section: 'Configuration' (Level: 2, Length: 308 chars)
+2025-04-16 19:44:40,880 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section13_Configuration.json
+2025-04-16 19:44:40,881 - INFO - Saved section 'Configuration' content to content_main_section13_Configuration.json
+2025-04-16 19:44:40,881 - INFO - Processing Section: 'FAQ' (Level: 2, Length: 791 chars)
+2025-04-16 19:44:40,882 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section14_FAQ.json
+2025-04-16 19:44:40,882 - INFO - Saved section 'FAQ' content to content_main_section14_FAQ.json
+2025-04-16 19:44:40,882 - INFO - Processing Section: 'Contributing' (Level: 2, Length: 523 chars)
+2025-04-16 19:44:40,883 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section15_Contributing.json
+2025-04-16 19:44:40,883 - INFO - Saved section 'Contributing' content to content_main_section15_Contributing.json
+2025-04-16 19:44:40,883 - INFO - Processing Section: 'Development workflow' (Level: 3, Length: 844 chars)
+2025-04-16 19:44:40,884 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section16_Development_workflow.json
+2025-04-16 19:44:40,884 - INFO - Saved section 'Development workflow' content to content_main_section16_Development_workflow.json
+2025-04-16 19:44:40,884 - INFO - Processing Section: 'Writing high‑impact code changes' (Level: 3, Length: 600 chars)
+2025-04-16 19:44:40,885 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section17_Writing_high‑impact_code_changes.json
+2025-04-16 19:44:40,885 - INFO - Saved section 'Writing high‑impact code changes' content to content_main_section17_Writing_high‑impact_code_changes.json
+2025-04-16 19:44:40,885 - INFO - Processing Section: 'Opening a pull request' (Level: 3, Length: 392 chars)
+2025-04-16 19:44:40,887 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section18_Opening_a_pull_request.json
+2025-04-16 19:44:40,887 - INFO - Saved section 'Opening a pull request' content to content_main_section18_Opening_a_pull_request.json
+2025-04-16 19:44:40,887 - INFO - Processing Section: 'Review process' (Level: 3, Length: 283 chars)
+2025-04-16 19:44:40,888 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section19_Review_process.json
+2025-04-16 19:44:40,888 - INFO - Saved section 'Review process' content to content_main_section19_Review_process.json
+2025-04-16 19:44:40,888 - INFO - Processing Section: 'Community values' (Level: 3, Length: 256 chars)
+2025-04-16 19:44:40,888 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section20_Community_values.json
+2025-04-16 19:44:40,889 - INFO - Saved section 'Community values' content to content_main_section20_Community_values.json
+2025-04-16 19:44:40,889 - INFO - Processing Section: 'Getting help' (Level: 3, Length: 253 chars)
+2025-04-16 19:44:40,890 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section21_Getting_help.json
+2025-04-16 19:44:40,890 - INFO - Saved section 'Getting help' content to content_main_section21_Getting_help.json
+2025-04-16 19:44:40,890 - INFO - Processing Section: 'Contributor License Agreement (CLA)' (Level: 3, Length: 689 chars)
+2025-04-16 19:44:40,891 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section22_Contributor_License_Agreement_(CLA).json
+2025-04-16 19:44:40,891 - INFO - Saved section 'Contributor License Agreement (CLA)' content to content_main_section22_Contributor_License_Agreement_(CLA).json
+2025-04-16 19:44:40,891 - INFO - Processing Section: 'Releasingcodex' (Level: 3, Length: 582 chars)
+2025-04-16 19:44:40,892 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section23_Releasingcodex.json
+2025-04-16 19:44:40,892 - INFO - Saved section 'Releasingcodex' content to content_main_section23_Releasingcodex.json
+2025-04-16 19:44:40,892 - INFO - Processing Section: 'Security & Responsible AI' (Level: 2, Length: 136 chars)
+2025-04-16 19:44:40,892 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section24_Security_&_Responsible_AI.json
+2025-04-16 19:44:40,892 - INFO - Saved section 'Security & Responsible AI' content to content_main_section24_Security_&_Responsible_AI.json
+2025-04-16 19:44:40,893 - INFO - Processing Section: 'License' (Level: 2, Length: 58 chars)
+2025-04-16 19:44:40,893 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\content_main_section25_License.json
+2025-04-16 19:44:40,893 - INFO - Saved section 'License' content to content_main_section25_License.json
+2025-04-16 19:44:40,893 - INFO - Finding potential supporting document links...
+2025-04-16 19:44:40,945 - INFO - Found 0 unique supporting document links matching criteria.
+2025-04-16 19:44:40,945 - INFO - --- Finished processing supporting documents ---
+2025-04-16 19:44:40,947 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\index.json
+2025-04-16 19:44:40,949 - INFO - Saved JSON: scraped_docs\github.com_openai_20250416_194438\embedding_source.json

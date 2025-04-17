@@ -1,0 +1,102 @@
+{
+    "scrape_metadata": {
+        "start_url": "https://firebase.google.com/docs",
+        "cleaned_start_url": "https://firebase.google.com/docs",
+        "user_agent": "MyCodingAgentScraper/2.1 (+http://your-website-or-contact.com/bot-info)",
+        "timestamp_utc": "2025-04-17T02:29:49Z",
+        "robots_txt_status": "Checked_RulesFound",
+        "output_directory": "scraped_docs\\firebase.google.com_docs_20250416_192948",
+        "total_supporting_links_found": 0,
+        "total_supporting_docs_processed": 0
+    },
+    "main_document": {
+        "url": "https://firebase.google.com/docs",
+        "status": "processed",
+        "content_type_header": "text/html",
+        "fetch_method": "requests",
+        "metadata": {
+            "title": "Firebase Documentation",
+            "description": "Developer documentation for Firebase",
+            "og_title": "Firebase Documentation",
+            "og_description": "Developer documentation for Firebase",
+            "og_type": "website",
+            "og_url": "https://firebase.google.com/docs",
+            "og_site_name": "Firebase"
+        },
+        "sections": [
+            {
+                "title": "Introduction / Content Before First Heading",
+                "level": 0,
+                "content_files": [
+                    "content_main_section0_Introduction_Content_Before_First_Heading.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Learn the fundamentals",
+                "level": 3,
+                "content_files": [
+                    "content_main_section1_Learn_the_fundamentals.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Build",
+                "level": 3,
+                "content_files": [
+                    "content_main_section2_Build.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Run",
+                "level": 3,
+                "content_files": [
+                    "content_main_section3_Run.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Documentation and learning content",
+                "level": 2,
+                "content_files": [
+                    "content_main_section4_Documentation_and_learning_content.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Guides",
+                "level": 3,
+                "content_files": [
+                    "content_main_section5_Guides.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Codelabs",
+                "level": 3,
+                "content_files": [
+                    "content_main_section6_Codelabs.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Reference documentation",
+                "level": 3,
+                "content_files": [
+                    "content_main_section7_Reference_documentation.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Quickstarts and samples",
+                "level": 3,
+                "content_files": [
+                    "content_main_section8_Quickstarts_and_samples.json"
+                ],
+                "status": "processed"
+            }
+        ]
+    },
+    "supporting_documents": []
+}

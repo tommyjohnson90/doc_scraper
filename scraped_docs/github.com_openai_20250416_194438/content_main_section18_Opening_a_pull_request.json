@@ -1,0 +1,6 @@
+{
+    "url": "https://github.com/openai/codex",
+    "section_title": "Opening a pull request",
+    "level": 3,
+    "content": "Fill in the PR template (or include similar information) –\nWhat? Why? How? Run all checks locally ( npm test && npm run lint && npm run typecheck ). CI failures that could have been caught locally slow down the process. Make sure your branch is up‑to‑date with main and that you have resolved merge conflicts. Mark the PR as\nReady for review\nonly when you believe it is in a merge‑able state."
+}

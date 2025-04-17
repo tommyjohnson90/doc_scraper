@@ -1,0 +1,46 @@
+2025-04-16 19:29:48,905 - INFO - pdfminer.six found, will be used for PDF extraction.
+2025-04-16 19:29:48,906 - INFO - Pandas found, will be used for CSV/Excel extraction.
+2025-04-16 19:29:48,906 - INFO - openpyxl found, enabling Pandas .xlsx support.
+2025-04-16 19:29:48,906 - INFO - python-docx found, will be used for DOCX extraction.
+2025-04-16 19:29:48,907 - INFO - Playwright fallback enabled and library found. Ensure browsers are installed (`playwright install`).
+2025-04-16 19:29:48,907 - INFO - Attempting to fetch robots.txt from: https://firebase.google.com/robots.txt
+2025-04-16 19:29:49,182 - INFO - Successfully fetched and parsed robots.txt for firebase.google.com
+2025-04-16 19:29:49,182 - INFO - --- Starting scrape process for: https://firebase.google.com/docs ---
+2025-04-16 19:29:49,190 - INFO - Attempting initial fetch (requests): https://firebase.google.com/docs
+2025-04-16 19:29:49,190 - INFO - Fetching (requests): https://firebase.google.com/docs
+2025-04-16 19:29:49,613 - INFO - Successfully fetched (requests): https://firebase.google.com/docs (Status: 200)
+2025-04-16 19:29:51,615 - INFO - Initial fetch successful (requests). Content length: 182118
+2025-04-16 19:29:51,651 - INFO - Attempting to extract content by sections...
+2025-04-16 19:29:51,653 - INFO - Found main content area using selector: 'article' for section extraction.
+2025-04-16 19:29:51,655 - INFO - Processing Section: 'Introduction / Content Before First Heading' (Level: 0, Length: 195 chars)
+2025-04-16 19:29:51,656 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_192948\content_main_section0_Introduction_Content_Before_First_Heading.json
+2025-04-16 19:29:51,656 - INFO - Saved section 'Introduction / Content Before First Heading' content to content_main_section0_Introduction_Content_Before_First_Heading.json
+2025-04-16 19:29:51,657 - INFO - Processing Section: 'Learn the fundamentals' (Level: 3, Length: 163 chars)
+2025-04-16 19:29:51,659 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_192948\content_main_section1_Learn_the_fundamentals.json
+2025-04-16 19:29:51,659 - INFO - Saved section 'Learn the fundamentals' content to content_main_section1_Learn_the_fundamentals.json
+2025-04-16 19:29:51,659 - INFO - Processing Section: 'Build' (Level: 3, Length: 244 chars)
+2025-04-16 19:29:51,660 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_192948\content_main_section2_Build.json
+2025-04-16 19:29:51,660 - INFO - Saved section 'Build' content to content_main_section2_Build.json
+2025-04-16 19:29:51,661 - INFO - Processing Section: 'Run' (Level: 3, Length: 222 chars)
+2025-04-16 19:29:51,662 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_192948\content_main_section3_Run.json
+2025-04-16 19:29:51,662 - INFO - Saved section 'Run' content to content_main_section3_Run.json
+2025-04-16 19:29:51,662 - INFO - Processing Section: 'Documentation and learning content' (Level: 2, Length: 128 chars)
+2025-04-16 19:29:51,663 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_192948\content_main_section4_Documentation_and_learning_content.json
+2025-04-16 19:29:51,663 - INFO - Saved section 'Documentation and learning content' content to content_main_section4_Documentation_and_learning_content.json
+2025-04-16 19:29:51,664 - INFO - Processing Section: 'Guides' (Level: 3, Length: 215 chars)
+2025-04-16 19:29:51,664 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_192948\content_main_section5_Guides.json
+2025-04-16 19:29:51,665 - INFO - Saved section 'Guides' content to content_main_section5_Guides.json
+2025-04-16 19:29:51,665 - INFO - Processing Section: 'Codelabs' (Level: 3, Length: 164 chars)
+2025-04-16 19:29:51,666 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_192948\content_main_section6_Codelabs.json
+2025-04-16 19:29:51,666 - INFO - Saved section 'Codelabs' content to content_main_section6_Codelabs.json
+2025-04-16 19:29:51,666 - INFO - Processing Section: 'Reference documentation' (Level: 3, Length: 176 chars)
+2025-04-16 19:29:51,667 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_192948\content_main_section7_Reference_documentation.json
+2025-04-16 19:29:51,667 - INFO - Saved section 'Reference documentation' content to content_main_section7_Reference_documentation.json
+2025-04-16 19:29:51,667 - INFO - Processing Section: 'Quickstarts and samples' (Level: 3, Length: 176 chars)
+2025-04-16 19:29:51,668 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_192948\content_main_section8_Quickstarts_and_samples.json
+2025-04-16 19:29:51,668 - INFO - Saved section 'Quickstarts and samples' content to content_main_section8_Quickstarts_and_samples.json
+2025-04-16 19:29:51,668 - INFO - Finding potential supporting document links...
+2025-04-16 19:29:51,713 - INFO - Found 0 unique supporting document links matching criteria.
+2025-04-16 19:29:51,714 - INFO - --- Finished processing supporting documents ---
+2025-04-16 19:29:51,716 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_192948\index.json
+2025-04-16 19:29:51,717 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_192948\embedding_source.json

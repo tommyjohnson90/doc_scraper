@@ -1,0 +1,6 @@
+{
+    "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+    "section_title": "Java",
+    "level": 3,
+    "content": "The Firebase Admin Java SDK is published to the Maven central repository.\nTo install the library, declare it as a dependency in your build.gradle file: dependencies\n{\nimplementation\n'\ncom\n.\ngoogle\n.\nfirebase\n:\nfirebase\n-\nadmin\n:\n9.4.3\n'\n} If you use Maven to build your application, you can add the following\ndependency to your pom.xml : <\ndependency\n>\n<\ngroupId>com\n.\ngoogle\n.\nfirebase\n<\n/\ngroupId\n>\n<\nartifactId>firebase\n-\nadmin\n<\n/\nartifactId\n>\n<\nversion>9\n.4.3\n<\n/\nversion\n>\n<\n/\ndependency\n>"
+}

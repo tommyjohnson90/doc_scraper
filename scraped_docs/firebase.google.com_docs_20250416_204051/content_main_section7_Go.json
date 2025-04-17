@@ -1,0 +1,6 @@
+{
+    "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+    "section_title": "Go",
+    "level": 3,
+    "content": "The Go Admin SDK can be installed using the go get utility: #\nInstall\nthe\nlatest\nversion\n:\ngo\nget\nfirebase\n.\ngoogle\n.\ncom\n/\ngo\n/\nv4\n@\nlatest\n#\nOr\ninstall\na\nspecific\nversion\n:\ngo\nget\nfirebase\n.\ngoogle\n.\ncom\n/\ngo\n/\nv4\n@\n4.15.2"
+}

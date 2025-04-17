@@ -1,0 +1,6 @@
+{
+    "url": "https://github.com/openai/codex",
+    "section_title": "Contributor License Agreement (CLA)",
+    "level": 3,
+    "content": "All contributors\nmust\naccept the CLA. The process is lightweight: Open your pull request. Paste the following comment (or reply recheck if you’ve signed before): I have read the CLA Document and I hereby sign the CLA The CLA‑Assistant bot records your signature in the repo and marks the status check as passed. No special Git commands, email attachments, or commit footers required. Quick fixes Scenario Command Amend last commit git commit --amend -s --no-edit && git push -f GitHub UI only Edit the commit message in the PR → add Signed-off-by: Your Name <email@example.com> The\nDCO check\nblocks merges until every commit in the PR carries the footer (with squash this is just the one)."
+}

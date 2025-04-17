@@ -1,0 +1,6 @@
+{
+    "url": "https://github.com/openai/codex",
+    "section_title": "Introduction / Content Before First Heading",
+    "level": 0,
+    "content": "OpenAI Codex CLI Lightweight coding agent that runs in your terminal npm i -g @openai/codex Table of Contents Experimental Technology Disclaimer Quickstart Why Codex? Funding Opportunity Security Model & Permissions Platform sandboxing details System Requirements CLI Reference Memory & Project Docs Non‑interactive / CI mode Recipes Installation Configuration FAQ Contributing Development workflow Writing high‑impact code changes Opening a pull request Review process Community values Getting help Contributor License Agreement (CLA) Quick fixes Releasing codex Security & Responsible AI License"
+}

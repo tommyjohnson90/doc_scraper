@@ -1,0 +1,6 @@
+{
+    "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+    "section_title": "Set scopes forRealtime DatabaseandAuthentication",
+    "level": 2,
+    "content": "If you're using a Google Compute Engine VM with Google Application Default\nCredentials for Realtime Database or Authentication , make sure to also set the right access scopes .\nFor Realtime Database and Authentication , you need scopes ending in userinfo.email and\neither cloud-platform or firebase.database . To check the existing access\nscopes and change them, run the following commands using gcloud ."
+}

@@ -1,0 +1,238 @@
+{
+    "scrape_metadata": {
+        "start_url": "https://github.com/openai/codex",
+        "cleaned_start_url": "https://github.com/openai/codex",
+        "user_agent": "MyCodingAgentScraper/2.1 (+http://your-website-or-contact.com/bot-info)",
+        "timestamp_utc": "2025-04-17T02:44:38Z",
+        "robots_txt_status": "Checked_RulesFound",
+        "output_directory": "scraped_docs\\github.com_openai_20250416_194438",
+        "total_supporting_links_found": 0,
+        "total_supporting_docs_processed": 0
+    },
+    "main_document": {
+        "url": "https://github.com/openai/codex",
+        "status": "processed",
+        "content_type_header": "text/html",
+        "fetch_method": "requests",
+        "metadata": {
+            "title": "GitHub - openai/codex: Lightweight coding agent that runs in your terminal",
+            "description": "Lightweight coding agent that runs in your terminal - openai/codex",
+            "og_title": "GitHub - openai/codex: Lightweight coding agent that runs in your terminal",
+            "og_description": "Lightweight coding agent that runs in your terminal - openai/codex",
+            "og_type": "object",
+            "og_url": "https://github.com/openai/codex",
+            "og_site_name": "GitHub"
+        },
+        "sections": [
+            {
+                "title": "Introduction / Content Before First Heading",
+                "level": 0,
+                "content_files": [
+                    "content_main_section0_Introduction_Content_Before_First_Heading.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Experimental Technology Disclaimer",
+                "level": 2,
+                "content_files": [
+                    "content_main_section1_Experimental_Technology_Disclaimer.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Quickstart",
+                "level": 2,
+                "content_files": [
+                    "content_main_section2_Quickstart.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Why Codex?",
+                "level": 2,
+                "content_files": [
+                    "content_main_section3_Why_Codex.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Funding Opportunity",
+                "level": 2,
+                "content_files": [
+                    "content_main_section4_Funding_Opportunity.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Security Model & Permissions",
+                "level": 2,
+                "content_files": [
+                    "content_main_section5_Security_Model_&_Permissions.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Platform sandboxing details",
+                "level": 3,
+                "content_files": [
+                    "content_main_section6_Platform_sandboxing_details.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "System Requirements",
+                "level": 2,
+                "content_files": [
+                    "content_main_section7_System_Requirements.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "CLI Reference",
+                "level": 2,
+                "content_files": [
+                    "content_main_section8_CLI_Reference.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Memory & Project Docs",
+                "level": 2,
+                "content_files": [
+                    "content_main_section9_Memory_&_Project_Docs.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Non‑interactive / CI mode",
+                "level": 2,
+                "content_files": [
+                    "content_main_section10_Non‑interactive_CI_mode.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Recipes",
+                "level": 2,
+                "content_files": [
+                    "content_main_section11_Recipes.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Installation",
+                "level": 2,
+                "content_files": [
+                    "content_main_section12_Installation.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Configuration",
+                "level": 2,
+                "content_files": [
+                    "content_main_section13_Configuration.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "FAQ",
+                "level": 2,
+                "content_files": [
+                    "content_main_section14_FAQ.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Contributing",
+                "level": 2,
+                "content_files": [
+                    "content_main_section15_Contributing.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Development workflow",
+                "level": 3,
+                "content_files": [
+                    "content_main_section16_Development_workflow.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Writing high‑impact code changes",
+                "level": 3,
+                "content_files": [
+                    "content_main_section17_Writing_high‑impact_code_changes.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Opening a pull request",
+                "level": 3,
+                "content_files": [
+                    "content_main_section18_Opening_a_pull_request.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Review process",
+                "level": 3,
+                "content_files": [
+                    "content_main_section19_Review_process.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Community values",
+                "level": 3,
+                "content_files": [
+                    "content_main_section20_Community_values.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Getting help",
+                "level": 3,
+                "content_files": [
+                    "content_main_section21_Getting_help.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Contributor License Agreement (CLA)",
+                "level": 3,
+                "content_files": [
+                    "content_main_section22_Contributor_License_Agreement_(CLA).json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Releasingcodex",
+                "level": 3,
+                "content_files": [
+                    "content_main_section23_Releasingcodex.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Security & Responsible AI",
+                "level": 2,
+                "content_files": [
+                    "content_main_section24_Security_&_Responsible_AI.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "License",
+                "level": 2,
+                "content_files": [
+                    "content_main_section25_License.json"
+                ],
+                "status": "processed"
+            }
+        ]
+    },
+    "supporting_documents": []
+}

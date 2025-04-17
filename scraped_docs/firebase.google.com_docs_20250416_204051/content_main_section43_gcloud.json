@@ -1,0 +1,6 @@
+{
+    "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+    "section_title": "gcloud",
+    "level": 3,
+    "content": "gcloud auth application-default login --client-id-file=[/path/to/client/id/file] You can specify the project ID explicitly on app initialization or just use the GOOGLE_CLOUD_PROJECT environment variable. The latter avoids the need to make\nany additional changes to test your code. To explicitly specify the project ID:"
+}

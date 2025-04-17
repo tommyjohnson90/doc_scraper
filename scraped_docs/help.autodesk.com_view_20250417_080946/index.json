@@ -1,0 +1,23 @@
+{
+    "scrape_metadata": {
+        "start_url": "https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-C1545D80-D804-4CF3-886D-9B5C54B2D7A2",
+        "cleaned_start_url": "https://help.autodesk.com/view/fusion360/ENU/",
+        "user_agent": "MyCodingAgentScraper/2.1 (+http://your-website-or-contact.com/bot-info)",
+        "timestamp_utc": "2025-04-17T15:09:46Z",
+        "robots_txt_status": "Checked_Allowed",
+        "output_directory": "scraped_docs\\help.autodesk.com_view_20250417_080946",
+        "total_supporting_links_found": 0,
+        "total_supporting_docs_processed": 0
+    },
+    "main_document": {
+        "url": "https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-C1545D80-D804-4CF3-886D-9B5C54B2D7A2",
+        "status": "error_no_main_content_selector_match",
+        "content_type_header": "text/html",
+        "fetch_method": "requests",
+        "metadata": {
+            "title": "Help"
+        },
+        "error_message": "Could not find main content area using defined selectors."
+    },
+    "supporting_documents": []
+}

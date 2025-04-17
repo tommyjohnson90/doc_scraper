@@ -1,0 +1,82 @@
+2025-04-16 17:00:57,927 - INFO - pdfminer.six found, will be used for PDF extraction.
+2025-04-16 17:00:57,928 - INFO - Pandas found, will be used for CSV/Excel extraction.
+2025-04-16 17:00:57,928 - INFO - openpyxl found, enabling Pandas .xlsx support.
+2025-04-16 17:00:57,928 - INFO - python-docx found, will be used for DOCX extraction.
+2025-04-16 17:00:57,928 - INFO - Playwright fallback enabled and library found. Ensure browsers are installed (`playwright install`).
+2025-04-16 17:00:57,928 - INFO - Attempting to fetch robots.txt from: https://modelcontextprotocol.io/robots.txt
+2025-04-16 17:00:58,188 - INFO - Successfully fetched and parsed robots.txt for modelcontextprotocol.io
+2025-04-16 17:00:58,189 - INFO - --- Starting scrape process for: https://modelcontextprotocol.io/introduction ---
+2025-04-16 17:00:58,190 - INFO - Attempting initial fetch (requests): https://modelcontextprotocol.io/introduction
+2025-04-16 17:00:58,191 - INFO - Fetching (requests): https://modelcontextprotocol.io/introduction
+2025-04-16 17:00:58,316 - INFO - Successfully fetched (requests): https://modelcontextprotocol.io/introduction (Status: 200)
+2025-04-16 17:01:00,318 - INFO - Initial fetch successful (requests). Content length: 134787
+2025-04-16 17:01:00,328 - INFO - Attempting to extract content by sections...
+2025-04-16 17:01:00,332 - INFO - Found main content area using selector: 'main' for section extraction.
+2025-04-16 17:01:00,334 - INFO - Processing Section: 'Introduction / Content Before First Heading' (Level: 0, Length: 875 chars)
+2025-04-16 17:01:00,336 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section0_Introduction_Content_Before_First_Heading.json
+2025-04-16 17:01:00,336 - INFO - Saved section 'Introduction / Content Before First Heading' content to content_main_section0_Introduction_Content_Before_First_Heading.json
+2025-04-16 17:01:00,336 - INFO - Processing Section: '​Why MCP?' (Level: 2, Length: 340 chars)
+2025-04-16 17:01:00,338 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section1_​Why_MCP.json
+2025-04-16 17:01:00,339 - INFO - Saved section '​Why MCP?' content to content_main_section1_​Why_MCP.json
+2025-04-16 17:01:00,339 - INFO - Processing Section: '​General architecture' (Level: 3, Length: 625 chars)
+2025-04-16 17:01:00,340 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section2_​General_architecture.json
+2025-04-16 17:01:00,340 - INFO - Saved section '​General architecture' content to content_main_section2_​General_architecture.json
+2025-04-16 17:01:00,340 - INFO - Processing Section: '​Get started' (Level: 2, Length: 57 chars)
+2025-04-16 17:01:00,341 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section3_​Get_started.json
+2025-04-16 17:01:00,341 - INFO - Saved section '​Get started' content to content_main_section3_​Get_started.json
+2025-04-16 17:01:00,341 - INFO - Processing Section: 'For Server Developers' (Level: 2, Length: 83 chars)
+2025-04-16 17:01:00,342 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section4_For_Server_Developers.json
+2025-04-16 17:01:00,342 - INFO - Saved section 'For Server Developers' content to content_main_section4_For_Server_Developers.json
+2025-04-16 17:01:00,343 - INFO - Processing Section: 'For Client Developers' (Level: 2, Length: 76 chars)
+2025-04-16 17:01:00,343 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section5_For_Client_Developers.json
+2025-04-16 17:01:00,344 - INFO - Saved section 'For Client Developers' content to content_main_section5_For_Client_Developers.json
+2025-04-16 17:01:00,344 - INFO - Processing Section: 'For Claude Desktop Users' (Level: 2, Length: 68 chars)
+2025-04-16 17:01:00,344 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section6_For_Claude_Desktop_Users.json
+2025-04-16 17:01:00,344 - INFO - Saved section 'For Claude Desktop Users' content to content_main_section6_For_Claude_Desktop_Users.json
+2025-04-16 17:01:00,345 - INFO - Processing Section: 'Example Servers' (Level: 2, Length: 65 chars)
+2025-04-16 17:01:00,345 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section7_Example_Servers.json
+2025-04-16 17:01:00,345 - INFO - Saved section 'Example Servers' content to content_main_section7_Example_Servers.json
+2025-04-16 17:01:00,346 - INFO - Processing Section: 'Example Clients' (Level: 2, Length: 54 chars)
+2025-04-16 17:01:00,346 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section8_Example_Clients.json
+2025-04-16 17:01:00,346 - INFO - Saved section 'Example Clients' content to content_main_section8_Example_Clients.json
+2025-04-16 17:01:00,346 - INFO - Processing Section: 'Building MCP with LLMs' (Level: 2, Length: 66 chars)
+2025-04-16 17:01:00,347 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section9_Building_MCP_with_LLMs.json
+2025-04-16 17:01:00,347 - INFO - Saved section 'Building MCP with LLMs' content to content_main_section9_Building_MCP_with_LLMs.json
+2025-04-16 17:01:00,348 - INFO - Processing Section: 'Debugging Guide' (Level: 2, Length: 59 chars)
+2025-04-16 17:01:00,348 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section10_Debugging_Guide.json
+2025-04-16 17:01:00,348 - INFO - Saved section 'Debugging Guide' content to content_main_section10_Debugging_Guide.json
+2025-04-16 17:01:00,348 - INFO - Processing Section: 'MCP Inspector' (Level: 2, Length: 69 chars)
+2025-04-16 17:01:00,349 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section11_MCP_Inspector.json
+2025-04-16 17:01:00,349 - INFO - Saved section 'MCP Inspector' content to content_main_section11_MCP_Inspector.json
+2025-04-16 17:01:00,349 - INFO - Processing Section: '​Explore MCP' (Level: 2, Length: 54 chars)
+2025-04-16 17:01:00,350 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section12_​Explore_MCP.json
+2025-04-16 17:01:00,350 - INFO - Saved section '​Explore MCP' content to content_main_section12_​Explore_MCP.json
+2025-04-16 17:01:00,350 - INFO - Processing Section: 'Core architecture' (Level: 2, Length: 54 chars)
+2025-04-16 17:01:00,350 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section13_Core_architecture.json
+2025-04-16 17:01:00,351 - INFO - Saved section 'Core architecture' content to content_main_section13_Core_architecture.json
+2025-04-16 17:01:00,351 - INFO - Processing Section: 'Resources' (Level: 2, Length: 49 chars)
+2025-04-16 17:01:00,351 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section14_Resources.json
+2025-04-16 17:01:00,351 - INFO - Saved section 'Resources' content to content_main_section14_Resources.json
+2025-04-16 17:01:00,351 - INFO - Processing Section: 'Prompts' (Level: 2, Length: 46 chars)
+2025-04-16 17:01:00,352 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section15_Prompts.json
+2025-04-16 17:01:00,352 - INFO - Saved section 'Prompts' content to content_main_section15_Prompts.json
+2025-04-16 17:01:00,352 - INFO - Processing Section: 'Tools' (Level: 2, Length: 50 chars)
+2025-04-16 17:01:00,353 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section16_Tools.json
+2025-04-16 17:01:00,353 - INFO - Saved section 'Tools' content to content_main_section16_Tools.json
+2025-04-16 17:01:00,353 - INFO - Processing Section: 'Sampling' (Level: 2, Length: 46 chars)
+2025-04-16 17:01:00,354 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section17_Sampling.json
+2025-04-16 17:01:00,354 - INFO - Saved section 'Sampling' content to content_main_section17_Sampling.json
+2025-04-16 17:01:00,355 - INFO - Processing Section: 'Transports' (Level: 2, Length: 41 chars)
+2025-04-16 17:01:00,355 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section18_Transports.json
+2025-04-16 17:01:00,356 - INFO - Saved section 'Transports' content to content_main_section18_Transports.json
+2025-04-16 17:01:00,356 - INFO - Processing Section: '​Contributing' (Level: 2, Length: 91 chars)
+2025-04-16 17:01:00,356 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section19_​Contributing.json
+2025-04-16 17:01:00,357 - INFO - Saved section '​Contributing' content to content_main_section19_​Contributing.json
+2025-04-16 17:01:00,357 - INFO - Processing Section: '​Support and Feedback' (Level: 2, Length: 703 chars)
+2025-04-16 17:01:00,358 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\content_main_section20_​Support_and_Feedback.json
+2025-04-16 17:01:00,358 - INFO - Saved section '​Support and Feedback' content to content_main_section20_​Support_and_Feedback.json
+2025-04-16 17:01:00,358 - INFO - Finding potential supporting document links...
+2025-04-16 17:01:00,371 - INFO - Found 0 unique supporting document links matching criteria.
+2025-04-16 17:01:00,371 - INFO - --- Finished processing supporting documents ---
+2025-04-16 17:01:00,373 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\index.json
+2025-04-16 17:01:00,374 - INFO - Saved JSON: scraped_docs\modelcontextprotocol.io_introduction_20250416_170057\embedding_source.json

@@ -1,0 +1,6 @@
+{
+    "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+    "section_title": "Python",
+    "level": 3,
+    "content": "# Initialize the default app\ndefault_app\n=\nfirebase_admin\n.\ninitialize_app\n(\ncred\n)\n#  Initialize another app with a different config\nother_app\n=\nfirebase_admin\n.\ninitialize_app\n(\ncred\n,\nname\n=\n'other'\n)\nprint\n(\ndefault_app\n.\nname\n)\n# \"[DEFAULT]\"\nprint\n(\nother_app\n.\nname\n)\n# \"other\"\n# Retrieve default services via the auth package...\n# auth.create_custom_token(...)\n# Use the `app` argument to retrieve the other app's services\n# auth.create_custom_token(..., app=other_app)"
+}

@@ -1,0 +1,6 @@
+{
+    "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+    "section_title": "Node.js",
+    "level": 3,
+    "content": "// Initialize the default app\ninitializeApp\n(\ndefaultAppConfig\n);\n// Initialize another app with a different config\nvar\notherApp\n=\ninitializeApp\n(\notherAppConfig\n,\n'other'\n);\nconsole\n.\nlog\n(\ngetApp\n().\nname\n);\n// '[DEFAULT]'\nconsole\n.\nlog\n(\notherApp\n.\nname\n);\n// 'other'\n// Use the shorthand notation to retrieve the default app's services\nconst\ndefaultAuth\n=\ngetAuth\n();\nconst\ndefaultDatabase\n=\ngetDatabase\n();\n// Use the otherApp variable to retrieve the other app's services\nconst\notherAuth\n=\ngetAuth\n(\notherApp\n);\nconst\notherDatabase\n=\ngetDatabase\n(\notherApp\n);"
+}

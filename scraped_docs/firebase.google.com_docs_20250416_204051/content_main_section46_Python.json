@@ -1,0 +1,6 @@
+{
+    "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+    "section_title": "Python",
+    "level": 3,
+    "content": "app_options\n=\n{\n'projectId'\n:\n'<FIREBASE_PROJECT_ID>'\n}\ndefault_app\n=\nfirebase_admin\n.\ninitialize_app\n(\noptions\n=\napp_options\n)"
+}

@@ -1,0 +1,6 @@
+{
+    "url": "https://modelcontextprotocol.io/introduction",
+    "section_title": "Introduction / Content Before First Heading",
+    "level": 0,
+    "content": "Model Context Protocol\nhome page Search... Python SDK TypeScript SDK Java SDK Kotlin SDK C# SDK Get Started Introduction Quickstart Example Servers Example Clients FAQs Tutorials Building MCP with LLMs Debugging Inspector Concepts Core architecture Resources Prompts Tools Sampling Roots Transports Development What's New Roadmap Contributing Model Context Protocol\nhome page Search... Search... Navigation Get Started Introduction User Guide SDKs Specification User Guide SDKs Specification GitHub C# SDK released! Check out\nwhat else is new. MCP is an open protocol that standardizes how applications provide context to LLMs. Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardized way to connect your devices to various peripherals and accessories, MCP provides a standardized way to connect AI models to different data sources and tools."
+}

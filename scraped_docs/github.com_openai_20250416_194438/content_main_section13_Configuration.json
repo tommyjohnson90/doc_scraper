@@ -1,0 +1,6 @@
+{
+    "url": "https://github.com/openai/codex",
+    "section_title": "Configuration",
+    "level": 2,
+    "content": "Codex looks for config files in ~/.codex/ . #\n~/.codex/config.yaml\nmodel\n:\no4-mini\n#\nDefault model\nfullAutoErrorMode\n:\nask-user\n#\nor ignore-and-continue You can also define custom instructions: #\n~/.codex/instructions.md\n-\nAlways respond with emojis\n-\nOnly use git commands if I explicitly mention you should"
+}

@@ -1,0 +1,6 @@
+{
+    "url": "https://github.com/openai/codex",
+    "section_title": "Quickstart",
+    "level": 2,
+    "content": "Install globally: npm install -g @openai/codex Next, set your OpenAI API key as an environment variable: export\nOPENAI_API_KEY=\n\"\nyour-api-key-here\n\" Note: This command sets the key only for your current terminal session. To make it permanent, add the export line to your shell's configuration file (e.g., ~/.zshrc ). Run interactively: codex Or, run with a prompt as input (and optionally in Full Auto mode): codex\n\"\nexplain this codebase to me\n\" codex --approval-mode full-auto\n\"\ncreate the fanciest todo-list app\n\" That’s it – Codex will scaffold a file, run it inside a sandbox, install any\nmissing dependencies, and show you the live result. Approve the changes and\nthey’ll be committed to your working directory."
+}

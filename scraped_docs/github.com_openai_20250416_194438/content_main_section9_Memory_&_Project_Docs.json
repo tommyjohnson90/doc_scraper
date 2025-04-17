@@ -1,0 +1,6 @@
+{
+    "url": "https://github.com/openai/codex",
+    "section_title": "Memory & Project Docs",
+    "level": 2,
+    "content": "Codex merges Markdown instructions in this order: ~/.codex/instructions.md – personal global guidance codex.md at repo root – shared project notes codex.md in cwd – sub‑package specifics Disable with --no-project-doc or CODEX_DISABLE_PROJECT_DOC=1 ."
+}

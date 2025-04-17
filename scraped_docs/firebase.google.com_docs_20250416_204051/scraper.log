@@ -1,0 +1,169 @@
+2025-04-16 20:40:51,465 - INFO - pdfminer.six found, will be used for PDF extraction.
+2025-04-16 20:40:51,466 - INFO - Pandas found, will be used for CSV/Excel extraction.
+2025-04-16 20:40:51,466 - INFO - openpyxl found, enabling Pandas .xlsx support.
+2025-04-16 20:40:51,467 - INFO - python-docx found, will be used for DOCX extraction.
+2025-04-16 20:40:51,467 - INFO - Playwright fallback enabled and library found. Ensure browsers are installed (`playwright install`).
+2025-04-16 20:40:51,467 - INFO - Attempting to fetch robots.txt from: https://firebase.google.com/robots.txt
+2025-04-16 20:40:51,725 - INFO - Successfully fetched and parsed robots.txt for firebase.google.com
+2025-04-16 20:40:51,726 - INFO - --- Starting scrape process for: https://firebase.google.com/docs/admin/setup#linux-or-macos ---
+2025-04-16 20:40:51,729 - INFO - Attempting initial fetch (requests): https://firebase.google.com/docs/admin/setup#linux-or-macos
+2025-04-16 20:40:51,729 - INFO - Fetching (requests): https://firebase.google.com/docs/admin/setup#linux-or-macos
+2025-04-16 20:40:52,554 - INFO - Successfully fetched (requests): https://firebase.google.com/docs/admin/setup#linux-or-macos (Status: 200)
+2025-04-16 20:40:54,555 - INFO - Initial fetch successful (requests). Content length: 340753
+2025-04-16 20:40:54,639 - INFO - Attempting to extract content by sections...
+2025-04-16 20:40:54,642 - INFO - Found main content area using selector: 'article' for section extraction.
+2025-04-16 20:40:54,650 - INFO - Processing Section: 'Introduction / Content Before First Heading' (Level: 0, Length: 2240 chars)
+2025-04-16 20:40:54,659 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section0_Introduction_Content_Before_First_Heading.json
+2025-04-16 20:40:54,660 - INFO - Saved section 'Introduction / Content Before First Heading' content to content_main_section0_Introduction_Content_Before_First_Heading.json
+2025-04-16 20:40:54,660 - INFO - Processing Section: 'Prerequisites' (Level: 2, Length: 370 chars)
+2025-04-16 20:40:54,662 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section1_Prerequisites.json
+2025-04-16 20:40:54,662 - INFO - Saved section 'Prerequisites' content to content_main_section1_Prerequisites.json
+2025-04-16 20:40:54,662 - INFO - Processing Section: 'Set up a Firebase project and service account' (Level: 2, Length: 1661 chars)
+2025-04-16 20:40:54,663 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section2_Set_up_a_Firebase_project_and_service_account.json
+2025-04-16 20:40:54,664 - INFO - Saved section 'Set up a Firebase project and service account' content to content_main_section2_Set_up_a_Firebase_project_and_service_account.json
+2025-04-16 20:40:54,664 - INFO - Processing Section: 'Add the SDK' (Level: 2, Length: 97 chars)
+2025-04-16 20:40:54,664 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section3_Add_the_SDK.json
+2025-04-16 20:40:54,665 - INFO - Saved section 'Add the SDK' content to content_main_section3_Add_the_SDK.json
+2025-04-16 20:40:54,665 - INFO - Processing Section: 'Node.js' (Level: 3, Length: 479 chars)
+2025-04-16 20:40:54,665 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section4_Node.js.json
+2025-04-16 20:40:54,666 - INFO - Saved section 'Node.js' content to content_main_section4_Node.js.json
+2025-04-16 20:40:54,666 - INFO - Processing Section: 'Java' (Level: 3, Length: 495 chars)
+2025-04-16 20:40:54,667 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section5_Java.json
+2025-04-16 20:40:54,667 - INFO - Saved section 'Java' content to content_main_section5_Java.json
+2025-04-16 20:40:54,667 - INFO - Processing Section: 'Python' (Level: 3, Length: 257 chars)
+2025-04-16 20:40:54,668 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section6_Python.json
+2025-04-16 20:40:54,668 - INFO - Saved section 'Python' content to content_main_section6_Python.json
+2025-04-16 20:40:54,668 - INFO - Processing Section: 'Go' (Level: 3, Length: 224 chars)
+2025-04-16 20:40:54,669 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section7_Go.json
+2025-04-16 20:40:54,669 - INFO - Saved section 'Go' content to content_main_section7_Go.json
+2025-04-16 20:40:54,669 - INFO - Processing Section: 'C#' (Level: 3, Length: 416 chars)
+2025-04-16 20:40:54,670 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section8_C#.json
+2025-04-16 20:40:54,671 - INFO - Saved section 'C#' content to content_main_section8_C#.json
+2025-04-16 20:40:54,671 - INFO - Processing Section: 'Initialize the SDK' (Level: 2, Length: 816 chars)
+2025-04-16 20:40:54,672 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section9_Initialize_the_SDK.json
+2025-04-16 20:40:54,672 - INFO - Saved section 'Initialize the SDK' content to content_main_section9_Initialize_the_SDK.json
+2025-04-16 20:40:54,673 - INFO - Processing Section: 'Node.js' (Level: 3, Length: 29 chars)
+2025-04-16 20:40:54,673 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section10_Node.js.json
+2025-04-16 20:40:54,673 - INFO - Saved section 'Node.js' content to content_main_section10_Node.js.json
+2025-04-16 20:40:54,674 - INFO - Processing Section: 'Java' (Level: 3, Length: 31 chars)
+2025-04-16 20:40:54,674 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section11_Java.json
+2025-04-16 20:40:54,674 - INFO - Saved section 'Java' content to content_main_section11_Java.json
+2025-04-16 20:40:54,675 - INFO - Processing Section: 'Python' (Level: 3, Length: 48 chars)
+2025-04-16 20:40:54,675 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section12_Python.json
+2025-04-16 20:40:54,676 - INFO - Saved section 'Python' content to content_main_section12_Python.json
+2025-04-16 20:40:54,676 - INFO - Processing Section: 'Go' (Level: 3, Length: 145 chars)
+2025-04-16 20:40:54,676 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section13_Go.json
+2025-04-16 20:40:54,677 - INFO - Saved section 'Go' content to content_main_section13_Go.json
+2025-04-16 20:40:54,677 - INFO - Processing Section: 'C#' (Level: 3, Length: 360 chars)
+2025-04-16 20:40:54,678 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section14_C#.json
+2025-04-16 20:40:54,678 - INFO - Saved section 'C#' content to content_main_section14_C#.json
+2025-04-16 20:40:54,678 - INFO - Processing Section: 'Using an OAuth 2.0 refresh token' (Level: 3, Length: 109 chars)
+2025-04-16 20:40:54,679 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section15_Using_an_OAuth_2.0_refresh_token.json
+2025-04-16 20:40:54,679 - INFO - Saved section 'Using an OAuth 2.0 refresh token' content to content_main_section15_Using_an_OAuth_2.0_refresh_token.json
+2025-04-16 20:40:54,680 - INFO - Processing Section: 'Node.js' (Level: 3, Length: 190 chars)
+2025-04-16 20:40:54,680 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section16_Node.js.json
+2025-04-16 20:40:54,681 - INFO - Saved section 'Node.js' content to content_main_section16_Node.js.json
+2025-04-16 20:40:54,681 - INFO - Processing Section: 'Java' (Level: 3, Length: 322 chars)
+2025-04-16 20:40:54,682 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section17_Java.json
+2025-04-16 20:40:54,682 - INFO - Saved section 'Java' content to content_main_section17_Java.json
+2025-04-16 20:40:54,682 - INFO - Processing Section: 'Python' (Level: 3, Length: 120 chars)
+2025-04-16 20:40:54,682 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section18_Python.json
+2025-04-16 20:40:54,683 - INFO - Saved section 'Python' content to content_main_section18_Python.json
+2025-04-16 20:40:54,683 - INFO - Processing Section: 'Go' (Level: 3, Length: 284 chars)
+2025-04-16 20:40:54,684 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section19_Go.json
+2025-04-16 20:40:54,684 - INFO - Saved section 'Go' content to content_main_section19_Go.json
+2025-04-16 20:40:54,684 - INFO - Processing Section: 'C#' (Level: 3, Length: 120 chars)
+2025-04-16 20:40:54,685 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section20_C#.json
+2025-04-16 20:40:54,685 - INFO - Saved section 'C#' content to content_main_section20_C#.json
+2025-04-16 20:40:54,685 - INFO - Processing Section: 'Initialize the SDK in non-Google environments' (Level: 3, Length: 1466 chars)
+2025-04-16 20:40:54,686 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section21_Initialize_the_SDK_in_non-Google_environments.json
+2025-04-16 20:40:54,686 - INFO - Saved section 'Initialize the SDK in non-Google environments' content to content_main_section21_Initialize_the_SDK_in_non-Google_environments.json
+2025-04-16 20:40:54,686 - INFO - Processing Section: 'Linux or macOS' (Level: 3, Length: 88 chars)
+2025-04-16 20:40:54,687 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section22_Linux_or_macOS.json
+2025-04-16 20:40:54,687 - INFO - Saved section 'Linux or macOS' content to content_main_section22_Linux_or_macOS.json
+2025-04-16 20:40:54,688 - INFO - Processing Section: 'Windows' (Level: 3, Length: 370 chars)
+2025-04-16 20:40:54,688 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section23_Windows.json
+2025-04-16 20:40:54,689 - INFO - Saved section 'Windows' content to content_main_section23_Windows.json
+2025-04-16 20:40:54,689 - INFO - Processing Section: 'Node.js' (Level: 3, Length: 111 chars)
+2025-04-16 20:40:54,690 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section24_Node.js.json
+2025-04-16 20:40:54,690 - INFO - Saved section 'Node.js' content to content_main_section24_Node.js.json
+2025-04-16 20:40:54,690 - INFO - Processing Section: 'Java' (Level: 3, Length: 235 chars)
+2025-04-16 20:40:54,692 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section25_Java.json
+2025-04-16 20:40:54,692 - INFO - Saved section 'Java' content to content_main_section25_Java.json
+2025-04-16 20:40:54,692 - INFO - Processing Section: 'Python' (Level: 3, Length: 48 chars)
+2025-04-16 20:40:54,693 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section26_Python.json
+2025-04-16 20:40:54,693 - INFO - Saved section 'Python' content to content_main_section26_Python.json
+2025-04-16 20:40:54,693 - INFO - Processing Section: 'Go' (Level: 3, Length: 145 chars)
+2025-04-16 20:40:54,694 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section27_Go.json
+2025-04-16 20:40:54,695 - INFO - Saved section 'Go' content to content_main_section27_Go.json
+2025-04-16 20:40:54,695 - INFO - Processing Section: 'C#' (Level: 3, Length: 159 chars)
+2025-04-16 20:40:54,696 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section28_C#.json
+2025-04-16 20:40:54,696 - INFO - Saved section 'C#' content to content_main_section28_C#.json
+2025-04-16 20:40:54,697 - INFO - Processing Section: 'Initialize multiple apps' (Level: 2, Length: 129 chars)
+2025-04-16 20:40:54,698 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section29_Initialize_multiple_apps.json
+2025-04-16 20:40:54,698 - INFO - Saved section 'Initialize multiple apps' content to content_main_section29_Initialize_multiple_apps.json
+2025-04-16 20:40:54,698 - INFO - Processing Section: 'Node.js' (Level: 3, Length: 388 chars)
+2025-04-16 20:40:54,699 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section30_Node.js.json
+2025-04-16 20:40:54,699 - INFO - Saved section 'Node.js' content to content_main_section30_Node.js.json
+2025-04-16 20:40:54,699 - INFO - Processing Section: 'Java' (Level: 3, Length: 525 chars)
+2025-04-16 20:40:54,700 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section31_Java.json
+2025-04-16 20:40:54,700 - INFO - Saved section 'Java' content to content_main_section31_Java.json
+2025-04-16 20:40:54,700 - INFO - Processing Section: 'Python' (Level: 3, Length: 264 chars)
+2025-04-16 20:40:54,701 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section32_Python.json
+2025-04-16 20:40:54,701 - INFO - Saved section 'Python' content to content_main_section32_Python.json
+2025-04-16 20:40:54,701 - INFO - Processing Section: 'Go' (Level: 3, Length: 344 chars)
+2025-04-16 20:40:54,703 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section33_Go.json
+2025-04-16 20:40:54,703 - INFO - Saved section 'Go' content to content_main_section33_Go.json
+2025-04-16 20:40:54,703 - INFO - Processing Section: 'C#' (Level: 3, Length: 809 chars)
+2025-04-16 20:40:54,704 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section34_C#.json
+2025-04-16 20:40:54,705 - INFO - Saved section 'C#' content to content_main_section34_C#.json
+2025-04-16 20:40:54,705 - INFO - Processing Section: 'Node.js' (Level: 3, Length: 565 chars)
+2025-04-16 20:40:54,706 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section35_Node.js.json
+2025-04-16 20:40:54,706 - INFO - Saved section 'Node.js' content to content_main_section35_Node.js.json
+2025-04-16 20:40:54,706 - INFO - Processing Section: 'Java' (Level: 3, Length: 766 chars)
+2025-04-16 20:40:54,707 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section36_Java.json
+2025-04-16 20:40:54,707 - INFO - Saved section 'Java' content to content_main_section36_Java.json
+2025-04-16 20:40:54,707 - INFO - Processing Section: 'Python' (Level: 3, Length: 476 chars)
+2025-04-16 20:40:54,708 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section37_Python.json
+2025-04-16 20:40:54,708 - INFO - Saved section 'Python' content to content_main_section37_Python.json
+2025-04-16 20:40:54,709 - INFO - Processing Section: 'Go' (Level: 3, Length: 808 chars)
+2025-04-16 20:40:54,709 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section38_Go.json
+2025-04-16 20:40:54,709 - INFO - Saved section 'Go' content to content_main_section38_Go.json
+2025-04-16 20:40:54,710 - INFO - Processing Section: 'C#' (Level: 3, Length: 552 chars)
+2025-04-16 20:40:54,711 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section39_C#.json
+2025-04-16 20:40:54,711 - INFO - Saved section 'C#' content to content_main_section39_C#.json
+2025-04-16 20:40:54,711 - INFO - Processing Section: 'Set scopes forRealtime DatabaseandAuthentication' (Level: 2, Length: 404 chars)
+2025-04-16 20:40:54,712 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section40_Set_scopes_forRealtime_DatabaseandAuthentication.json
+2025-04-16 20:40:54,712 - INFO - Saved section 'Set scopes forRealtime DatabaseandAuthentication' content to content_main_section40_Set_scopes_forRealtime_DatabaseandAuthentication.json
+2025-04-16 20:40:54,712 - INFO - Processing Section: 'gcloud' (Level: 3, Length: 704 chars)
+2025-04-16 20:40:54,713 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section41_gcloud.json
+2025-04-16 20:40:54,713 - INFO - Saved section 'gcloud' content to content_main_section41_gcloud.json
+2025-04-16 20:40:54,713 - INFO - Processing Section: 'Testing with gcloud end user credentials' (Level: 2, Length: 636 chars)
+2025-04-16 20:40:54,715 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section42_Testing_with_gcloud_end_user_credentials.json
+2025-04-16 20:40:54,715 - INFO - Saved section 'Testing with gcloud end user credentials' content to content_main_section42_Testing_with_gcloud_end_user_credentials.json
+2025-04-16 20:40:54,716 - INFO - Processing Section: 'gcloud' (Level: 3, Length: 318 chars)
+2025-04-16 20:40:54,717 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section43_gcloud.json
+2025-04-16 20:40:54,717 - INFO - Saved section 'gcloud' content to content_main_section43_gcloud.json
+2025-04-16 20:40:54,718 - INFO - Processing Section: 'Node.js' (Level: 3, Length: 168 chars)
+2025-04-16 20:40:54,718 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section44_Node.js.json
+2025-04-16 20:40:54,719 - INFO - Saved section 'Node.js' content to content_main_section44_Node.js.json
+2025-04-16 20:40:54,719 - INFO - Processing Section: 'Java' (Level: 3, Length: 215 chars)
+2025-04-16 20:40:54,720 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section45_Java.json
+2025-04-16 20:40:54,720 - INFO - Saved section 'Java' content to content_main_section45_Java.json
+2025-04-16 20:40:54,720 - INFO - Processing Section: 'Python' (Level: 3, Length: 127 chars)
+2025-04-16 20:40:54,721 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section46_Python.json
+2025-04-16 20:40:54,721 - INFO - Saved section 'Python' content to content_main_section46_Python.json
+2025-04-16 20:40:54,721 - INFO - Processing Section: 'Go' (Level: 3, Length: 208 chars)
+2025-04-16 20:40:54,722 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section47_Go.json
+2025-04-16 20:40:54,723 - INFO - Saved section 'Go' content to content_main_section47_Go.json
+2025-04-16 20:40:54,723 - INFO - Processing Section: 'C#' (Level: 3, Length: 142 chars)
+2025-04-16 20:40:54,723 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section48_C#.json
+2025-04-16 20:40:54,724 - INFO - Saved section 'C#' content to content_main_section48_C#.json
+2025-04-16 20:40:54,724 - INFO - Processing Section: 'Next steps' (Level: 2, Length: 485 chars)
+2025-04-16 20:40:54,724 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\content_main_section49_Next_steps.json
+2025-04-16 20:40:54,725 - INFO - Saved section 'Next steps' content to content_main_section49_Next_steps.json
+2025-04-16 20:40:54,725 - INFO - Finding potential supporting document links...
+2025-04-16 20:40:54,804 - INFO - Found 0 unique supporting document links matching criteria.
+2025-04-16 20:40:54,804 - INFO - --- Finished processing supporting documents ---
+2025-04-16 20:40:54,806 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\index.json
+2025-04-16 20:40:54,814 - INFO - Saved JSON: scraped_docs\firebase.google.com_docs_20250416_204051\embedding_source.json

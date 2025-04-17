@@ -1,0 +1,6 @@
+{
+    "url": "https://github.com/openai/codex",
+    "section_title": "Why Codex?",
+    "level": 2,
+    "content": "Codex CLI is built for developers who already\nlive in the terminal\nand want\nChatGPT‑level reasoning\nplus\nthe power to actually run code, manipulate\nfiles, and iterate – all under version control. In short, it’s\nchat‑driven\ndevelopment\nthat understands and executes your repo. Zero setup\n— bring your OpenAI API key and it just works! Full auto-approval, while safe + secure\nby running network-disabled and directory-sandboxed Multimodal\n— pass in screenshots or diagrams to implement features ✨ And it's\nfully open-source\nso you can see and contribute to how it develops!"
+}

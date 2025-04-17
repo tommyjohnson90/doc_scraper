@@ -1,0 +1,6 @@
+{
+    "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+    "section_title": "C#",
+    "level": 3,
+    "content": "The .NET\nAdmin SDK\ncan be installed using the .NET package manager: Install-Package FirebaseAdmin -Version 3.1.0 Alternatively, install it using the dotnet command-line utility: dotnet add package FirebaseAdmin --version 3.1.0 Or, you can install it by adding the following package reference entry to\nyour .csproj file: <\nItemGroup\n>\n<\nPackageReference\nInclude\n=\n\"FirebaseAdmin\"\nVersion\n=\n\"3.1.0\"\n/\n>\n<\n/\nItemGroup\n>"
+}

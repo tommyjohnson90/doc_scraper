@@ -1,0 +1,6 @@
+{
+    "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+    "section_title": "Node.js",
+    "level": 3,
+    "content": "The Firebase Admin Node.js SDK is available on npm. If you don't already\nhave a package.json file, create one via npm init . Next, install the firebase-admin npm package and save it to your package.json : npm install firebase-admin --save To use the module in your application, require it from any JavaScript\nfile: const\n{\ninitializeApp\n}\n=\nrequire\n(\n'firebase-admin/app'\n); If you are using ES2015, you can import the module: import\n{\ninitializeApp\n}\nfrom\n'firebase-admin/app'\n;"
+}

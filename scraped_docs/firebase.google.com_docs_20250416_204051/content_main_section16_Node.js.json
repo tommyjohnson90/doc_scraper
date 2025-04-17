@@ -1,0 +1,6 @@
+{
+    "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+    "section_title": "Node.js",
+    "level": 3,
+    "content": "const\nmyRefreshToken\n=\n'...'\n;\n// Get refresh token from OAuth2 flow\ninitializeApp\n({\ncredential\n:\nrefreshToken\n(\nmyRefreshToken\n),\ndatabaseURL\n:\n'https://<DATABASE_NAME>.firebaseio.com'\n});"
+}

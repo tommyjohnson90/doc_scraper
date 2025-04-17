@@ -1,0 +1,6 @@
+{
+    "url": "https://github.com/openai/codex",
+    "section_title": "Installation",
+    "level": 2,
+    "content": "From npm (Recommended) npm install -g @openai/codex\n#\nor\nyarn global add @openai/codex Build from source #\nClone the repository and navigate to the CLI package\ngit clone https://github.com/openai/codex.git\ncd\ncodex/codex-cli\n#\nInstall dependencies and build\nnpm install\nnpm run build\n#\nGet the usage and the options\nnode ./dist/cli.js --help\n#\nRun the locally‑built CLI directly\nnode ./dist/cli.js\n#\nOr link the command globally for convenience\nnpm link"
+}

@@ -1,0 +1,430 @@
+{
+    "scrape_metadata": {
+        "start_url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+        "cleaned_start_url": "https://firebase.google.com/docs/admin/setup",
+        "user_agent": "MyCodingAgentScraper/2.1 (+http://your-website-or-contact.com/bot-info)",
+        "timestamp_utc": "2025-04-17T03:40:51Z",
+        "robots_txt_status": "Checked_RulesFound",
+        "output_directory": "scraped_docs\\firebase.google.com_docs_20250416_204051",
+        "total_supporting_links_found": 0,
+        "total_supporting_docs_processed": 0
+    },
+    "main_document": {
+        "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+        "status": "processed",
+        "content_type_header": "text/html",
+        "fetch_method": "requests",
+        "metadata": {
+            "title": "Add the Firebase Admin SDK to your server",
+            "description": "The Admin SDK is a set of server libraries that lets you interact with Firebase from privileged environments.",
+            "og_title": "Add the Firebase Admin SDK to your server",
+            "og_description": "The Admin SDK is a set of server libraries that lets you interact with Firebase from privileged environments.",
+            "og_type": "website",
+            "og_url": "https://firebase.google.com/docs/admin/setup",
+            "og_site_name": "Firebase"
+        },
+        "sections": [
+            {
+                "title": "Introduction / Content Before First Heading",
+                "level": 0,
+                "content_files": [
+                    "content_main_section0_Introduction_Content_Before_First_Heading.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Prerequisites",
+                "level": 2,
+                "content_files": [
+                    "content_main_section1_Prerequisites.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Set up a Firebase project and service account",
+                "level": 2,
+                "content_files": [
+                    "content_main_section2_Set_up_a_Firebase_project_and_service_account.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Add the SDK",
+                "level": 2,
+                "content_files": [
+                    "content_main_section3_Add_the_SDK.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Node.js",
+                "level": 3,
+                "content_files": [
+                    "content_main_section4_Node.js.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Java",
+                "level": 3,
+                "content_files": [
+                    "content_main_section5_Java.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Python",
+                "level": 3,
+                "content_files": [
+                    "content_main_section6_Python.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Go",
+                "level": 3,
+                "content_files": [
+                    "content_main_section7_Go.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "C#",
+                "level": 3,
+                "content_files": [
+                    "content_main_section8_C#.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Initialize the SDK",
+                "level": 2,
+                "content_files": [
+                    "content_main_section9_Initialize_the_SDK.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Node.js",
+                "level": 3,
+                "content_files": [
+                    "content_main_section10_Node.js.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Java",
+                "level": 3,
+                "content_files": [
+                    "content_main_section11_Java.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Python",
+                "level": 3,
+                "content_files": [
+                    "content_main_section12_Python.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Go",
+                "level": 3,
+                "content_files": [
+                    "content_main_section13_Go.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "C#",
+                "level": 3,
+                "content_files": [
+                    "content_main_section14_C#.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Using an OAuth 2.0 refresh token",
+                "level": 3,
+                "content_files": [
+                    "content_main_section15_Using_an_OAuth_2.0_refresh_token.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Node.js",
+                "level": 3,
+                "content_files": [
+                    "content_main_section16_Node.js.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Java",
+                "level": 3,
+                "content_files": [
+                    "content_main_section17_Java.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Python",
+                "level": 3,
+                "content_files": [
+                    "content_main_section18_Python.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Go",
+                "level": 3,
+                "content_files": [
+                    "content_main_section19_Go.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "C#",
+                "level": 3,
+                "content_files": [
+                    "content_main_section20_C#.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Initialize the SDK in non-Google environments",
+                "level": 3,
+                "content_files": [
+                    "content_main_section21_Initialize_the_SDK_in_non-Google_environments.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Linux or macOS",
+                "level": 3,
+                "content_files": [
+                    "content_main_section22_Linux_or_macOS.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Windows",
+                "level": 3,
+                "content_files": [
+                    "content_main_section23_Windows.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Node.js",
+                "level": 3,
+                "content_files": [
+                    "content_main_section24_Node.js.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Java",
+                "level": 3,
+                "content_files": [
+                    "content_main_section25_Java.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Python",
+                "level": 3,
+                "content_files": [
+                    "content_main_section26_Python.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Go",
+                "level": 3,
+                "content_files": [
+                    "content_main_section27_Go.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "C#",
+                "level": 3,
+                "content_files": [
+                    "content_main_section28_C#.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Initialize multiple apps",
+                "level": 2,
+                "content_files": [
+                    "content_main_section29_Initialize_multiple_apps.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Node.js",
+                "level": 3,
+                "content_files": [
+                    "content_main_section30_Node.js.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Java",
+                "level": 3,
+                "content_files": [
+                    "content_main_section31_Java.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Python",
+                "level": 3,
+                "content_files": [
+                    "content_main_section32_Python.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Go",
+                "level": 3,
+                "content_files": [
+                    "content_main_section33_Go.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "C#",
+                "level": 3,
+                "content_files": [
+                    "content_main_section34_C#.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Node.js",
+                "level": 3,
+                "content_files": [
+                    "content_main_section35_Node.js.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Java",
+                "level": 3,
+                "content_files": [
+                    "content_main_section36_Java.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Python",
+                "level": 3,
+                "content_files": [
+                    "content_main_section37_Python.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Go",
+                "level": 3,
+                "content_files": [
+                    "content_main_section38_Go.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "C#",
+                "level": 3,
+                "content_files": [
+                    "content_main_section39_C#.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Set scopes forRealtime DatabaseandAuthentication",
+                "level": 2,
+                "content_files": [
+                    "content_main_section40_Set_scopes_forRealtime_DatabaseandAuthentication.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "gcloud",
+                "level": 3,
+                "content_files": [
+                    "content_main_section41_gcloud.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Testing with gcloud end user credentials",
+                "level": 2,
+                "content_files": [
+                    "content_main_section42_Testing_with_gcloud_end_user_credentials.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "gcloud",
+                "level": 3,
+                "content_files": [
+                    "content_main_section43_gcloud.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Node.js",
+                "level": 3,
+                "content_files": [
+                    "content_main_section44_Node.js.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Java",
+                "level": 3,
+                "content_files": [
+                    "content_main_section45_Java.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Python",
+                "level": 3,
+                "content_files": [
+                    "content_main_section46_Python.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Go",
+                "level": 3,
+                "content_files": [
+                    "content_main_section47_Go.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "C#",
+                "level": 3,
+                "content_files": [
+                    "content_main_section48_C#.json"
+                ],
+                "status": "processed"
+            },
+            {
+                "title": "Next steps",
+                "level": 2,
+                "content_files": [
+                    "content_main_section49_Next_steps.json"
+                ],
+                "status": "processed"
+            }
+        ]
+    },
+    "supporting_documents": []
+}

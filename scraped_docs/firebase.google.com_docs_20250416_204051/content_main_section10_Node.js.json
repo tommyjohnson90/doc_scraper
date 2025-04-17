@@ -1,0 +1,6 @@
+{
+    "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+    "section_title": "Node.js",
+    "level": 3,
+    "content": "const\napp\n=\ninitializeApp\n();"
+}

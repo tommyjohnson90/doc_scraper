@@ -1,0 +1,6 @@
+{
+    "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+    "section_title": "C#",
+    "level": 3,
+    "content": "// Initialize the default app\nvar\ndefaultApp\n=\nFirebaseApp\n.\nCreate\n(\nnew\nAppOptions\n()\n{\nCredential\n=\nGoogleCredential\n.\nGetApplicationDefault\n(),\n});\nConsole\n.\nWriteLine\n(\ndefaultApp\n.\nName\n);\n// \"[DEFAULT]\"\n// Retrieve services by passing the defaultApp variable...\nvar\ndefaultAuth\n=\nFirebaseAuth\n.\nGetAuth\n(\ndefaultApp\n);\n// ... or use the equivalent shorthand notation\ndefaultAuth\n=\nFirebaseAuth\n.\nDefaultInstance\n; Some use cases require you to create multiple apps at the same time. For\nexample, you might want to read data from the\nRealtime Database\nof one Firebase\nproject and mint custom tokens for another project. Or you might want to\nauthenticate two apps with separate credentials. The Firebase SDK allows you\ncreate multiple apps at the same time, each with their own configuration\ninformation."
+}

@@ -1,0 +1,6 @@
+{
+    "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+    "section_title": "Java",
+    "level": 3,
+    "content": "// Initialize the default app\nFirebaseApp\ndefaultApp\n=\nFirebaseApp\n.\ninitializeApp\n(\ndefaultOptions\n);\n// Initialize another app with a different config\nFirebaseApp\notherApp\n=\nFirebaseApp\n.\ninitializeApp\n(\notherAppConfig\n,\n\"other\"\n);\nSystem\n.\nout\n.\nprintln\n(\ndefaultApp\n.\ngetName\n());\n// \"[DEFAULT]\"\nSystem\n.\nout\n.\nprintln\n(\notherApp\n.\ngetName\n());\n// \"other\"\n// Use the shorthand notation to retrieve the default app's services\nFirebaseAuth\ndefaultAuth\n=\nFirebaseAuth\n.\ngetInstance\n();\nFirebaseDatabase\ndefaultDatabase\n=\nFirebaseDatabase\n.\ngetInstance\n();\n// Use the otherApp variable to retrieve the other app's services\nFirebaseAuth\notherAuth\n=\nFirebaseAuth\n.\ngetInstance\n(\notherApp\n);\nFirebaseDatabase\notherDatabase\n=\nFirebaseDatabase\n.\ngetInstance\n(\notherApp\n);"
+}

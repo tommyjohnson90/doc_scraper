@@ -1,0 +1,6 @@
+{
+    "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+    "section_title": "C#",
+    "level": 3,
+    "content": "FirebaseApp\n.\nCreate\n(\nnew\nAppOptions\n()\n{\nCredential\n=\nGoogleCredential\n.\nGetApplicationDefault\n(),\nProjectId\n=\n\"<FIREBASE_PROJECT_ID>\"\n,\n});"
+}

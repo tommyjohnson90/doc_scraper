@@ -1,0 +1,6 @@
+{
+    "url": "https://github.com/openai/codex",
+    "section_title": "FAQ",
+    "level": 2,
+    "content": "OpenAI released a model called Codex in 2021 - is this related? In 2021, OpenAI released Codex, an AI system designed to generate code from natural language prompts. That original Codex model was deprecated as of March 2023 and is separate from the CLI tool. How do I stop Codex from touching my repo? Codex always runs in a\nsandbox first\n. If a proposed command or file change looks suspicious you can simply answer\nn\nwhen prompted and nothing happens to your working tree. Does it work on Windows? Not directly. It requires\nWindows Subsystem for Linux (WSL2)\n– Codex has been tested on macOS and Linux with Node ≥ 22. Which models are supported? Any model available with Responses API . The default is o4-mini , but pass --model gpt-4o or set model: gpt-4o in your config file to override."
+}

@@ -1,0 +1,6 @@
+{
+    "url": "https://github.com/openai/codex",
+    "section_title": "Writing high‑impact code changes",
+    "level": 3,
+    "content": "Start with an issue.\nOpen a new one or comment on an existing discussion so we can agree on the solution before code is written. Add or update tests.\nEvery new feature or bug‑fix should come with test coverage that fails before your change and passes afterwards. 100 % coverage is not required, but aim for meaningful assertions. Document behaviour. If your change affects user‑facing behaviour, update the README, inline help ( codex --help ), or relevant example projects. Keep commits atomic.\nEach commit should compile and the tests should pass. This makes reviews and potential rollbacks easier."
+}

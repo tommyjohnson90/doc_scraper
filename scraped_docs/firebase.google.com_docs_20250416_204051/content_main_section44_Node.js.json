@@ -1,0 +1,6 @@
+{
+    "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+    "section_title": "Node.js",
+    "level": 3,
+    "content": "import\n{\ninitializeApp\n,\napplicationDefault\n}\nfrom\n'firebase-admin/app'\n;\ninitializeApp\n({\ncredential\n:\napplicationDefault\n(),\nprojectId\n:\n'<FIREBASE_PROJECT_ID>'\n,\n});"
+}

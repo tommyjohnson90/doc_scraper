@@ -1,0 +1,6 @@
+{
+    "url": "https://github.com/openai/codex",
+    "section_title": "Releasingcodex",
+    "level": 3,
+    "content": "To publish a new version of the CLI, run the release scripts defined in codex-cli/package.json : Open the codex-cli directory Make sure you're on a branch like git checkout -b bump-version Bump the version and CLI_VERSION to current datetime: npm run release:version Commit the version bump (with DCO sign-off): git add codex-cli/src/utils/session.ts codex-cli/package.json\ngit commit -s -m\n\"\nchore(release): codex-cli v\n$(\nnode -p\n\\\"\nrequire(\n'\n./codex-cli/package.json\n'\n).version\n\\\"\n)\n\" Copy README, build, and publish to npm: npm run release Push to branch: git push origin HEAD"
+}

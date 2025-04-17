@@ -1,0 +1,6 @@
+{
+    "url": "https://firebase.google.com/docs/admin/setup#linux-or-macos",
+    "section_title": "Python",
+    "level": 3,
+    "content": "The Firebase Admin Python SDK is available via pip .\nYou can install the library for all users via sudo : sudo pip install firebase-admin Or, you can install the library for just the current user by passing the --user flag: pip install --user firebase-admin"
+}

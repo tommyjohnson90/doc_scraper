@@ -1,0 +1,6 @@
+{
+    "url": "https://github.com/openai/codex",
+    "section_title": "Development workflow",
+    "level": 3,
+    "content": "Create a topic branch from main – e.g. feat/interactive-prompt . Keep your changes focused. Multiple unrelated fixes should be opened as separate PRs. Use npm run test:watch during development for super‑fast feedback. We use\nVitest\nfor unit tests,\nESLint\n+\nPrettier\nfor style, and\nTypeScript\nfor type‑checking. Before pushing, run the full test/type/lint suite: npm\ntest\n&&\nnpm run lint\n&&\nnpm run typecheck If you have\nnot\nyet signed the Contributor License Agreement (CLA), add a PR comment containing the exact text I have read the CLA Document and I hereby sign the CLA The CLA‑Assistant bot will turn the PR status green once all authors have signed. #\nWatch mode (tests rerun on change)\nnpm run test:watch\n#\nType‑check without emitting files\nnpm run typecheck\n#\nAutomatically fix lint + prettier issues\nnpm run lint:fix\nnpm run format:fix"
+}
